@@ -21,12 +21,12 @@ def out_blue(text):
 
 
 '''pseudographics to print my name'''
-out_red('----- | |  |  ---')
-out_yellow("  |   |  \\ | |   |")
-out_blue('  |   |   \\| -----')
-out_red('  |   |    | |   |')
-out_yellow('  |   |    | |   |')
-out_blue('----- |    | |   |')
+out_red('*******     *          *     *      * * * *')
+out_yellow('   *        *          *     *     *       *')
+out_blue('   *        *          * * * *     * * * * *')
+out_red('   *        *                *     *       *')
+out_yellow('   *        *                *     *       *')
+out_blue('*******     ******     *******     *       *')
 
 '''SECOND VARIANT'''
 ''' made variables for colors'''
@@ -46,12 +46,12 @@ def color_txt(txt, color='\033[31m'):
 '''made lists for colors and graphics'''
 colors = [red, yellow, blue, white]
 lines = list()
-lines.append('----- | |  |  ---')      #  .append - add to the tail of list
-lines.append('  |   |  \\ | |   |')
-lines.append('  |   |   \\| -----')
-lines.append('  |   |    | |   |')
-lines.append('  |   |    | |   |')
-lines.append('----- |    | |   |')
+lines.append('*******     *          *     *      * * * *')      #  .append - add to the tail of list
+lines.append('   *        *          *     *     *       *')
+lines.append('   *        *          * * * *     * * * * *')
+lines.append('   *        *                *     *       *')
+lines.append('   *        *                *     *       *')
+lines.append('*******     ******     *******     *       *')
 
 '''loop for printing colored name'''
 for t in lines:

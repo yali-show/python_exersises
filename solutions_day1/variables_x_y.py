@@ -14,19 +14,8 @@ y = 50
 '''first math actions'''
 print(x,y)
 print(x+y)
-print(x*y)
-print(x**y)
 print(y/x)
-print(y%x)
+print(x%y)
+print(x**y)
 
-
-
-
-
-
-'''def print_hi(name):
-
-if __name__ == '__main__':
-    print_hi('PyCharm')
-'''
 
