@@ -3,6 +3,7 @@ import random
 ''' 1) Вывести на консоль своё имя, нарисованное 'звёздочками' (I used |; \\ and -)'''
 '''FIRST VARIANT'''
 
+
 def out_red(text):
     '''
     outy_red - color my message in red
@@ -17,7 +18,6 @@ def out_yellow(text):
 
 def out_blue(text):
     print("\033[34m {}".format(text))
-
 
 
 '''pseudographics to print my name'''
