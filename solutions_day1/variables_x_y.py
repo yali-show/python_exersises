@@ -11,11 +11,16 @@ import math
 '''made variables'''
 x = 10
 y = 50
+xy = x,y
+z = x%y
+d = x+y
+k = y//x
+l = x**y
 '''first math actions'''
-print(x,y)
-print(x+y)
-print(y/x)
-print(x%y)
-print(x**y)
+print(xy)
+print(d)
+print(k)
+print(z)
+print(l)
 
 
