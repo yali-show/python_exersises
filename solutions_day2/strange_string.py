@@ -16,7 +16,6 @@ def modefy_string(string):
 def stranger_string(string):
     splited_string = string.split()
     str = ""
-    print(splited_string)
     for element in splited_string:
         for i in range(len(element)):
 
