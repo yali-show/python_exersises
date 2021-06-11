@@ -2,6 +2,14 @@
 ============
 This repository for my python exersises
 ***
+Release(11.06):
+===
+***strange_string.py*** - make second letter in word (bigger)
+***
+***list_work.py*** -  show identical element in list
+***
+***slice_word.py*** - remake word(two letter from start + two letter from end)
+
 Release(04.06):
 ===
 ***art.py*** - work with art lib
