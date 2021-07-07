@@ -1,3 +1,6 @@
+'''
+check if char is validate for our password(A - Z)(a - z)(0 - 9)
+'''
 def validate_char(password):
     message = []
 
@@ -19,7 +22,9 @@ def validate_char(password):
                    message = [" содержит запрещенные символы"]
     return message
 
-
+'''
+check if quantity of numbers is odd
+'''
 def odd_number_count(password):
    message = []
    number_list = []
@@ -37,6 +42,9 @@ def odd_number_count(password):
 
    return message
 
+'''
+check if quantity of letters is even
+'''
 def even_letter_count(password):
     message = []
     letters_list = []
@@ -52,7 +60,9 @@ def even_letter_count(password):
 
     return message
 
-
+'''
+main function
+'''
 def validate_password(password):
     res_validate_char     = validate_char(password)
     res_odd_number_count  = odd_number_count(password)
