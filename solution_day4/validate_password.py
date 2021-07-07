@@ -3,7 +3,7 @@ def validate_char(password):
 
 
     ZERO_IN_ASCI = 48
-    EIGHT_IN_ASCI = 57
+    NINE_IN_ASCI = 57
     UPPER_A_IN_ASCI = 65
     UPPER_Z_IN_ASCI = 90
     LOWER_A_IN_ASCI = 97
@@ -11,7 +11,7 @@ def validate_char(password):
 
     for char in password:
         char_orded = ord(char)
-        if char_orded < ZERO_IN_ASCI or EIGHT_IN_ASCI < char_orded:      #numbers
+        if char_orded < ZERO_IN_ASCI or NINE_IN_ASCI < char_orded:      #numbers
 
            if char_orded < UPPER_A_IN_ASCI or UPPER_Z_IN_ASCI < char_orded:   #letters in upper
 
