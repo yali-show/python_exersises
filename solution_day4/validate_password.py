@@ -58,6 +58,8 @@ def validate_password(password):
     res_odd_number_count  = odd_number_count(password)
     res_even_letter_count = even_letter_count(password)
     result = res_validate_char + res_odd_number_count + res_even_letter_count
+    if not result :
+        result = True
     return result
 
 
