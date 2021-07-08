@@ -23,7 +23,6 @@ def validate_char(password):
 def odd_number_count(password):
    message = []
    number_list = []
-   list_char = password.split()
 
    for number in password:
        if number.isdigit():
