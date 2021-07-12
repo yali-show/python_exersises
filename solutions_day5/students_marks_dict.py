@@ -14,7 +14,8 @@ sampleDict = {
 *******************************************************
 function calculate average student's mark in dictionary
 *******************************************************
-return float
+sample_dict - nested dictionary
+return - float
 '''
 def student_average_score(sample_dict) -> float:
     class_of_student = sample_dict["class"]
@@ -22,8 +23,8 @@ def student_average_score(sample_dict) -> float:
     marks = students_data["marks"]
     sum_of_numbers = 0
     count = 0
-    # summed all numbers in values by keys and counted them
 
+    # summed all numbers in values by keys and counted them
     for key in marks:
         sum_of_numbers += marks[key]
         count += 1
