@@ -75,4 +75,3 @@ def validate_password(password):
 if __name__ == '__main__':
     your_password = input('Введи пароль: ')
     print(validate_password(your_password))
-

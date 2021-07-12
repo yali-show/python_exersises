@@ -2,12 +2,12 @@
 ============
 This repository for my python exersises
 ***
-
-Realease(07.07)
+Release(7.07):
 ===
-***validate_password.py*** - check if password is validate
-(A - Z)(a - z)(0 - 9)
+***
+***validate_password.py*** - check if password is validate (A - Z)(a - z)(0 - 9)
 
+***
 Release(19.06):
 ===
 ***string_slice.py*** - give two letter from center (if word have odd 
@@ -19,8 +19,7 @@ quantity of letter)
 ***dictionary_work*** - count quantity of letter (count teir separately) and add to dictionary
 (letter , quantity)
 
-
-Relese(11.06):
+Release(11.06):
 ===
 ***strange_string.py*** - make second letter in word (bigger)
 ***
