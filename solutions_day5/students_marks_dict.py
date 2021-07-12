@@ -9,19 +9,19 @@ sampleDict = {
       }
    }
 }
-class_of_student = sampleDict["class"]
-students_data = class_of_student["student"]
-marks = students_data["marks"]
-average_score = []
 
 
-def student_average_score() -> float:
+def student_average_score(sample_dict) -> float:
+    class_of_student = sample_dict["class"]
+    students_data = class_of_student["student"]
+    marks = students_data["marks"]
+    sum_of_numbers = 0
+    count = 0
     for key in marks:
-        average_score.append(marks[key])
-
-    sum_of_numbers = sum(average_score)
-    quantity_of_numbers = len(average_score)
+        sum_of_numbers += marks[key]
+        count += 1
+    quantity_of_numbers = count
     average_marks = float(sum_of_numbers // quantity_of_numbers)
     return average_marks
 
-print(student_average_score())
+print(student_average_score(sampleDict))
