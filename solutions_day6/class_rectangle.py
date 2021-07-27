@@ -5,7 +5,6 @@ class Rectangle:
 
     def calculate_area(self):
         area = self.length * self.width
-
         return area
 
 if __name__ == '__main__':
@@ -13,7 +12,13 @@ if __name__ == '__main__':
     if message.lower() == 'yes':
         length = int(input('Length: '))
         width = int(input('Width: '))
-        result = Rectangle(length, width).calculate_area()
+        rectangle = Rectangle(length, width)
+        result = rectangle.calculate_area()
         print(f'Your result: {result}')
     else:
-        print(Rectangle().calculate_area())
+        if message.lower() == 'no':
+            rectangle = Rectangle()
+            result = rectangle.calculate_area()
+            print(result)
+        else:
+            print('you should choose: "Yes" or "No"')
