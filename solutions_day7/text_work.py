@@ -4,6 +4,8 @@ def text_work(file):
     file   - name of file.txt
     return - dictionary of words
     '''
+    message_smile = '\U0001F61F'
+    error_smile = '\N{FEARFUL FACE}'
     try:
         with open(file, "r") as initial_text:
             initial_text = initial_text.read()
@@ -29,8 +31,8 @@ def text_work(file):
         return dict_of_words
 
     except Exception:
-        print("something wrong")
-        return 'Error'
+        print(message_smile + "something wrong" + message_smile)
+        return 'Error' + error_smile
 
 if __name__ == '__main__':
     text_file = r'book-war-and-peace.txt'
