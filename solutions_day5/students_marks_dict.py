@@ -21,6 +21,7 @@ def student_average_score(sample_dict) -> float:
     class_of_student = sample_dict["class"]
     students_data = class_of_student["student"]
     marks = students_data["marks"]
+   # marks = sample_dict["class"]["steudent"]["marks"]
     sum_of_numbers = 0
     count = 0
 
@@ -30,7 +31,7 @@ def student_average_score(sample_dict) -> float:
         count += 1
 
     quantity_of_numbers = count
-    average_marks = float(sum_of_numbers // quantity_of_numbers)
+    average_marks = sum_of_numbers / quantity_of_numbers
     return average_marks
 
 if __name__ == '__main__':
