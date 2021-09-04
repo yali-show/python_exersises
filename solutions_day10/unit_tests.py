@@ -1,7 +1,7 @@
 from unittest import TestCase
 from main import *
 
-class TestMorty(TestCase):
+class TestMonty(TestCase):
     def test_generate_doors(self):
         result = type(generate_doors(3))
         expected = list
